@@ -1,0 +1,45 @@
+.container{
+	display: table;
+}
+section{
+	float: left;
+	width: 55%;
+}
+aside{
+	width: 40%;
+	border: 1px solid rgb(214, 214, 214);
+	border-radius: 10px;
+	float: right;
+	margin-top: 50px; 
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+aside a:visited{
+	color: rgb(30, 145, 221);
+	text-decoration: none;
+}
+aside a:hover{
+	color: rgb(26, 22, 247);
+	text-decoration: none;
+}
+aside h2{
+	color: rgba(1, 1, 14, 0.788);
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+}
+aside h6{
+	color: rgba(1, 1, 14, 0.788);
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-top: 20px;
+}
+aside span{
+	color: rgba(126, 121, 121, 0.918);
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 20px;
+}
+#textoHashTags{
+	/*width: 200px;*/
+	border:1px solid rgb(102, 86, 245);
+}
